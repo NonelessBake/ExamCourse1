@@ -11,7 +11,7 @@ function sum(){
     let a = Number(document.getElementById("a").value);
     let b = Number(document.getElementById("b").value);
     let sum=0;
-    if(a > b){
+    if(a > b || a===b){
         alert("Nhap a nho hon b");
     }
     else{
