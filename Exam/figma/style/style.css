@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital@1&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Merriweather', serif;
+}
+ol,ul,li{
+    list-style: none;
+}
+.divContent{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav{
+    display: flex;
+}
+.collapse{
+    display: flex;
+    align-items: center;
+}
+.search{
+    border-radius: 2px;
+    padding: 10px 30px;
+    border: 1px solid #BFC8E5;
+
+}
+.user{
+    width: 300px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: #FBFCFF;
+    border-radius: 16px;
+    margin: 10px;
+    
+}
+.middle{
+    background-color: #FBFCFF;
+    border: 1px solid #BFC8E5;
+}
+.name{
+    font-weight: 900;
+    font-size: 18px;
+  
+}
+.place{
+    font-weight: 500;
+    font-size: 14px;
+}
+.user div{
+    margin: 16px;
+    text-align: left;
+    padding: 4px;
+}
+.favorite{
+    color: #516FD4;
+    background-color: white;
+    border: 1px solid #BFC8E6;
+    border-radius: 10px;
+    font-size: 12px;
+    padding: 4px 2px;
+    margin-top: 2px;
+}
+.favorite:hover{
+    cursor: pointer;
+    background-color: #516FD4;
+    color: white;
+    transition: all 0.5s;
+}
